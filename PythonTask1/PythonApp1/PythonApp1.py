@@ -15,4 +15,5 @@ print(dir(math.sqrt))
 list1 = [82,8,23,97,92]
 print(list1)
 dir(list1)
+
 help(list1.insert)
