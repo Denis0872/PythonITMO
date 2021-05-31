@@ -38,3 +38,42 @@ print("{:10.3e} {:10.3e}".format(a, b))
 list1 = [82,8,23,97,92,44,17,39,11,12]
 dir(list1)
 #help(list1)
+import math
+#help(list1.insert)
+#help(list1.append)
+#help(list1.sort)
+#help(list1.remove)
+#help(list1.reverse)
+list1[3]=1000
+print(list1)
+list1.append(100)
+print(list1)
+list1.insert(1, 444)
+print(list1)
+del list1[5]
+print(list1)
+del list1[-1]
+print(list1)
+list1.sort(reverse=True)
+print(list1)
+list2 = [3,5,6,2,33,6,11]
+list3 = sorted(list2)
+print(list3)
+print(dir(tuple))
+help(list3.count)
+help(list3.index)
+seq = (2,8,23,97,92,44,17,39,11,12)
+print(seq.count(8))
+print(seq.index(44))
+listseq = list(seq)
+print(listseq)
+print(type(listseq))
+listseq.append(100)
+print(listseq)
+listseq.sort(reverse=True)
+print(listseq)
+D = {'food': 'Apple', 'quantity': 4, 'color': 'Red'}
+print(D['food'])
+D['quantity'] += 10
+print(D)
+dp = {}
