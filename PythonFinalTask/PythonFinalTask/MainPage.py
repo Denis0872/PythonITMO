@@ -6,11 +6,12 @@ DefModule.Hello()
 #DefModule.connection()
 #DefModule.sqlQuerryCategory()
 #DefModule.ConversationtoCustomer()
-#DefModule.sqlQuerryEveryThink
+#DefModule.sqlQuerryEveryThink()
 
 entYes1=int(input("Выберите что вы хотите вывести. цифры от 1 до 6. 1-добавить продукт,2-показать все продукты,3-отсортировать всё по дате,4-отсортировать по цене,5-удалить продукт,6-выйти "))     
+
 if entYes1==1:
-     DefModule.sqlAddProduct()
+     DefModule.ConversationtoCustomerAddProduct()
 elif entYes1==2:
     DefModule.sqlQuerryEveryThink()
 elif entYes1==3:
